@@ -29,14 +29,6 @@
 	5.3 - Alignments
 
 ----------------------------------------------------------------*/
-*,*:after, *:before {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	-o-box-sizing: border-box;
-	-ms-box-sizing: border-box;
-	box-sizing: border-box;
-	font-size: 12px;
-}
 
 /*--------------------------------------------------------------
 1.0 TYPOGRAPHY:
@@ -82,12 +74,6 @@
 
 /*----------3.1 - Site Structure----------*/
 
-.wrapper {
-	width: 80%;
-	margin: 0 auto;	
-}
-
-
 
 /*----------3.2	- Site Header----------*/
 
@@ -100,34 +86,6 @@
 
 /*----------4.1	- Sprite----------*/
 
-
-.fa-tumblr, .fa-facebook-f {
-	color: #fafbff;
-	margin-left: -30px;
-	margin-right: 50px;
-   -webkit-text-stroke-width: 1px;
-   -webkit-text-stroke-color: #0ac9b4;
- }
-
-
-.fa-tumblr:hover, .fa-facebook-f:hover {
-	color: #0ac9b4;
-	-webkit-transition-property:color, text;
-	-webkit-transition-duration: .5s;
-	-webkit-transition-timing-function: linear, ease-in;
-
-	-moz-transition-property:color, text;
-	-moz-transition-duration:.5s;
-	-moz-transition-timing-function: linear, ease-in;
-
-	-o-transition-property:color, text;
-	-o-transition-duration:.5s;
-	-o-transition-timing-function: linear, ease-in;
-	
-	transition-property:color, text;
-	transition-duration:.5s;
-	transition-timing-function: linear, ease-in;
-}
 
 /*----------4.2	- Media Quiery----------*/
 
