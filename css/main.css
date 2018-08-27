@@ -107,7 +107,7 @@ ul {
 
 .ui-tabs.ui-tabs-vertical {
     padding: 0;
-    width: 28em;
+    width: 100%;
 }
 .ui-tabs.ui-tabs-vertical .ui-widget-header {
     border: none;
@@ -115,7 +115,7 @@ ul {
 
 .ui-tabs.ui-tabs-vertical .ui-tabs-nav {
     float: left;
-    width: 50%;
+    width: 35%;
 }
 
 .ui-tabs.ui-tabs-vertical .ui-tabs-nav li {
@@ -149,7 +149,7 @@ ul {
 }
 .ui-tabs.ui-tabs-vertical .ui-tabs-panel {
     float: left;
-    width: 50%;
+    width: 65%;
     position: relative;
 }
 
@@ -414,25 +414,30 @@ footer .col-s-1-2 {
 		font-size: 4rem;
 		margin: 20px 0 20px;
 	}
-	.col-1-2 {
+	#hero h1 {
+		margin-left: 120px;
+	}
+	nav ul {
+		margin-left: -200px;
+	}
+	
+	nav li {
+		padding-left: 30px;
+	}
+	.col-1-2, .col-1-3, .col-2-5, .col-3-5 {
 		width: 100%;
 	}
-	.col-1-3 {
-		width: 100%;
+	
+	.ui-tabs.ui-tabs-vertical .ui-tabs-nav {
+		float: left;
+		width: 50%;
 	}
-	.col-2-5 {
-		width: 100%;		
-	}
-	.col-3-5{
-		width: 100%;
-	}
+
 	.ui-tabs.ui-tabs-vertical .ui-tabs-panel {
-    width: 29%;
+    width: 50%;
 	}
+
 	.flex {
 		flex-direction: column;
-	}
-	.col-s-1-2 {
-		
 	}
 }
