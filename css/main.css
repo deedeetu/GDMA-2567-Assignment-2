@@ -41,6 +41,32 @@ h1, h2, h3, h4, #tabs li {
 	text-transform: uppercase;
 }
 
+h1 a {
+	text-decoration: none;
+	line-height: 35px;
+	font-size: 3rem;
+	color: #93cfa9; 
+}
+
+h1 a:hover {
+	color: #146c57;
+	-webkit-transition-property:color, text;
+	-webkit-transition-duration: .5s;
+	-webkit-transition-timing-function: linear, ease-in;
+
+	-moz-transition-property:color, text;
+	-moz-transition-duration:.5s;
+	-moz-transition-timing-function: linear, ease-in;
+
+	-o-transition-property:color, text;
+	-o-transition-duration:.5s;
+	-o-transition-timing-function: linear, ease-in;
+	
+	transition-property:color, text;
+	transition-duration:.5s;
+	transition-timing-function: linear, ease-in;
+}
+
 h4 {
 	font-size: 2rem;
 }
@@ -293,8 +319,8 @@ nav {
 
 /*----------4.1	- Sprite----------*/
 
-.fa-twitter-square, .fa-facebook-square, .fa-linkedin {
-	color: #146c57;
+.fa-twitter-square, .fa-facebook-square, .fa-linkedin {	
+	color: #93cfa9;
 }
 
 .fa-twitter-square:before, .fa-facebook-square:before, .fa-linkedin:before {
@@ -303,7 +329,7 @@ nav {
 }
 
 .fa-twitter-square:hover, .fa-facebook-square:hover, .fa-linkedin:hover {
-	color: #93cfa9;
+	color: #146c57;
 	-webkit-transition-property:color, text;
 	-webkit-transition-duration: .5s;
 	-webkit-transition-timing-function: linear, ease-in;
@@ -413,6 +439,10 @@ footer .col-s-1-2 {
 	h4 {
 		font-size: 4rem;
 		margin: 20px 0 20px;
+	}
+	h1 a {
+		font-size: 5rem;
+		line-height: 45px;
 	}
 	#hero h1 {
 		margin-left: 120px;
